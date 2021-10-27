@@ -4,11 +4,11 @@ import { BigDecimal, Address, BigInt, log } from '@graphprotocol/graph-ts/index'
 import { ZERO_BD, factoryContract, ADDRESS_ZERO, ONE_BD } from './helpers'
 
 let WFTM_ADDRESS = '0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83'
-let WFTM_USDC_ADDRESS = '0xe537f70a8b62204832b8ba91940b77d3f79aeb81'
+let WFTM_USDC_ADDRESS = '0xaddbac9d577cfb732683346de4cb41a40847533f'
 let USDC = '0x04068da6c83afcfa0e13ba15a6696662335d5b75'
 
 let WHITELIST: string[] = [
-  // '0x6bd193ee6d2104f14f94e2ca6efefae561a4334b', //VAM
+  '0x7e6D53A2a0D92A522db8d1c026bc8179448d2C0C', //VAM
   '0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83', //WFTM
   '0x04068da6c83afcfa0e13ba15a6696662335d5b75', //USDC
 ]
