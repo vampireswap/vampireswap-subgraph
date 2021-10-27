@@ -26,7 +26,7 @@ export class VampireSwapFactory extends Entity {
       "Cannot save VampireSwapFactory entity with non-string ID. " +
         'Considering using .toHex() to convert the "id" to a string.'
     );
-    store.set("VampireSwapFactory", id.toString(), this);//
+    store.set("VampireSwapFactory", id.toString(), this);
   }
 
   static load(id: string): VampireSwapFactory | null {
